@@ -45,15 +45,13 @@ a {
 p {
     font-size: 16px;
 }
-
 .hero {
+/* I changed the hero image to an <img> element, and applied the hero class stylings to it. I did this to ensure that the image would have alt text that could be read by screen readers. It did not seem like there was an easy (if even possible) way to apply alt text to images that are treated as background images? In my opinion, a main image SHOULD NOT be formatted as if it were background content. */
+
     width: 100%;
     margin-bottom: 25px;
-    /* background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-*/
 }
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -128,6 +126,17 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+.main-services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
 
 .search-engine-optimization {
     margin-bottom: 20px;
