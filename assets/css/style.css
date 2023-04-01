@@ -8,6 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,14 +46,6 @@ header li {
     font-size: 20px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
 .hero {
 /* I changed the hero image to an <img> element, and applied the hero class stylings to it. I did this to ensure that the image would have alt text that could be read by screen readers. It did not seem like there was an easy (if even possible) way to apply alt text to images that are treated as background images? In my opinion, a main image SHOULD NOT be formatted as if it were background content. It's visual content, not a mood-setting canvas element. */
 
