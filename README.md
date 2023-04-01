@@ -44,8 +44,7 @@ The last thing I'll note is the first thing I did when starting the assignment, 
 
 ## Screenshot
 
-![screenshot of the Horiseon website] 
-(/assets/images/horiseon-screenshot.png)
+![screenshot of my edited Horiseon website](assets/images/horiseon-screenshot.png)
 
 
 ## Installation
