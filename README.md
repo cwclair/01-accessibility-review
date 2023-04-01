@@ -42,7 +42,10 @@ The heading tags fall in sequential order. I adjust the footer to have an h4 tag
 
 The last thing I'll note is the first thing I did when starting the assignment, which was to add an actual title to the head section. Hopefully the good folks of Horiseon like it better than "Title."
 
+## Screenshot
 
+![screenshot of the Horiseon website] 
+(/assets/images/horiseon-screenshot.png)
 
 
 ## Installation
