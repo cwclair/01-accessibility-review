@@ -46,10 +46,35 @@ p {
     font-size: 16px;
 }
 .hero {
-/* I changed the hero image to an <img> element, and applied the hero class stylings to it. I did this to ensure that the image would have alt text that could be read by screen readers. It did not seem like there was an easy (if even possible) way to apply alt text to images that are treated as background images? In my opinion, a main image SHOULD NOT be formatted as if it were background content. */
+/* I changed the hero image to an <img> element, and applied the hero class stylings to it. I did this to ensure that the image would have alt text that could be read by screen readers. It did not seem like there was an easy (if even possible) way to apply alt text to images that are treated as background images? In my opinion, a main image SHOULD NOT be formatted as if it were background content. It's visual content, not a mood-setting canvas element. */
 
     width: 100%;
     margin-bottom: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* With the .main-services class, I've combined what previously consisted of three classes (search-engine-optimization, online-reputation-management, social-media-marketing) that had identical attributes.
+*/
+
+.main-services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The main-services img tag consolidates the img properties from the aforementioned three classes that were replaced by a singular main-services class.
+*/
+
+.main-services img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -62,71 +87,10 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* The main-services h2 tag consolidates the h2 properties from the aforementioned three classes that were replaced by a singular main-services class.
+*/
 
-.main-services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.main-services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -142,49 +106,21 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
+/* With the .benefit-individual class, I've combined what previously consisted of three individual styles (benefit-lead, benefit-brand, benefit-cost) that had identical attributes. I've done the same with the h3 and img styles. I've adjusted the h3 size to 24px to help the headings stand out.
+*/
+
+.benefit-individual {
+    margin-bottom: 50px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 24px;
+.benefit-individual h3 {
+    margin-bottom: 10px;
     text-align: center;
+    font-size: 24px;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 24px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 24px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-individual img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
