@@ -38,7 +38,7 @@ In the aside section, I adjusted the margins in some spots to give what I felt w
 
 I added an id to one of the main elements (Search Engine Optimization) so that the link in the nav bar would work.
 
-The heading tags fall in sequential order. I adjust the footer to have an h4 tag, as it didn't make sense to me to have an h2 at the portion of the page. I also adjusted the h3 tag in the Elements area to have a larger point size, to make it more in line with the sizes of the h2 and h4 tags, and to give it more heft, as I felt the h3 didn't stand out as it should.
+The heading tags fall in sequential order. I adjusted the footer to have an h4 tag, as it didn't make sense to me to have an h2 at the portion of the page. I also adjusted the h3 tag in the Elements area to have a larger point size, to make it more in line, from a ratio standpoint, with the sizes of the h2 and h4 tags, and to give it more heft, as I felt the h3 didn't stand out as it should.
 
 The last thing I'll note is the first thing I did when starting the assignment, which was to add an actual title to the head section. Hopefully the good folks of Horiseon like it better than "Title."
 
@@ -46,12 +46,8 @@ The last thing I'll note is the first thing I did when starting the assignment, 
 
 ![screenshot of my edited Horiseon website](assets/images/horiseon-screenshot.png)
 
+## Link to Deployed Application
+https://cwclair.github.io/01-accessibility-review/
 
-## Installation
-n/a
-## Usage
-n/a
 ## Credits
-n/a
-## License
-n/a
+Assignment is rooted in starter code provided by the instructor/course. 
