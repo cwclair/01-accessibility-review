@@ -30,7 +30,7 @@ I replaced div elements with semantic elements such as header, section, article,
 
 I ensured that the code flows naturally, from header to footer, with the "hero" image immediately following the header, followed next by the main elements (the three services noted in the header menu, "Search Engine Optimization," "Online Reputation Management," and "Social Media Marketing"), and then the three benefits ("Lead Generation," "Brand Awareness," and "Cost Management") that are stylized into a sidebar on the right.
 
-I added alt text to the images in each category, to the icons in the benefits column, and I reconfigured the hero image so that it was not presented as a background image, allowing me to add alt text to the image. Perhaps there is a way to add alt text to a background image? My online research seemed to conclude that it was not feasible, at least not without some odd tactic being applied. I figured, "Why not just use a styled <img> element here?
+I added alt text to the images in each category, to the icons in the benefits column, and I reconfigured the hero image so that it was not presented as a background image, allowing me to add alt text to the image. Perhaps there is a way to add alt text to a background image? My online research seemed to conclude that it was not feasible, at least not without some odd tactic being applied. I figured, "Why not just use a styled img element here?
 
 I consolidated three classes (search-engine-optimization, online-reputation-management, social-media-marketing) into one class (main-services), as the three individual classes had identical stylings. I did the same thing for the three classes used in the sidebar (benefit-lead, benefit-brand, benefit-cost), creating a new, consolidated class called benefit-individual. I thought this naming convention made sense seeing as the parent class for the overall sidebar section was called benefits. I also consolidated the h2/h3 and img stylings for each of these former class groups, since they also were identical (like their parent classes). 
 
@@ -50,4 +50,4 @@ The last thing I'll note is the first thing I did when starting the assignment, 
 https://cwclair.github.io/01-accessibility-review/
 
 ## Credits
-Assignment is rooted in starter code provided by the instructor/course. 
+Assignment is rooted in starter code provided by the instructor/course. I used the aside element tag for the right sidebar section of the page after reading the W3Schools section on HTML semantic elements.
